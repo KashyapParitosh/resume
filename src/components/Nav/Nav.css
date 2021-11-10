@@ -1,0 +1,168 @@
+:root {
+    --nav-bg: #5f5b53;
+    --nav-font-color: #105652;
+}
+
+.nav-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 4;
+}
+
+
+.nav-container {
+    padding: 0 5%;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background: var(--nav-bg);
+}
+
+
+
+nav {
+    margin: auto;
+
+    max-width: 1400px;
+
+    padding: 0;
+
+    height: 80px;
+    width: 100%;
+
+    transition: all 1s;
+}
+
+
+label.logo {
+    color: var(--nav-font-color);
+    font-size: 28px;
+    line-height: 80px;
+    padding: 0;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+
+    margin: 0 0px 0 0;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--nav-font-color);
+    font-size: 17px;
+    border: 1px solid transparent;
+    padding: 7px 13px;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+
+
+#icon {
+    font-size: 30px;
+    color: var(--nav-font-color);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+@media screen and (max-width: 1048px) {
+
+    label.logo {
+        font-size: 28px;
+        padding-left: 40px;
+    }
+
+    nav ul {
+        margin-right: 20px;
+    }
+
+    nav a {
+        font-size: 17px;
+    }
+
+
+
+}
+
+.active {
+    border-bottom: 1px solid var(--nav-font-color);
+    border-radius: 0;
+    transition: all .25s;
+
+    padding: auto 50px;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+
+    color: #FCA738;
+
+
+}
+
+@media screen and (max-width: 953px) {
+
+    nav #icon {
+        display: block;
+        margin: 0;
+    }
+
+
+
+    label.logo {
+        font-size: 28px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    nav ul {
+        position: absolute;
+        height: fit-content;
+        width: 100%;
+        background: var(--nav-bg);
+        top: 80px;
+        text-align: center;
+        left: -100%;
+        padding-left: 0;
+        transition: all 0.5s;
+    }
+
+    nav li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+
+    nav ul li a:hover {
+        color: #FCA738;
+    }
+
+    nav .show {
+        left: 0;
+        right: 0px;
+        z-index: 3;
+    }
+}

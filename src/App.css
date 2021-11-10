@@ -1,0 +1,60 @@
+/* NAVBAR STYLING */
+.nav{
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-evenly;
+  background-color: rgb(243, 237, 237);
+}
+.nameInNav{
+  margin: 20px;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  /* justify-content: space-between; */
+}
+.ulInNav{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-left: 50px;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+ul li{
+  margin: 20px;
+  padding: 10px;
+  /* align-items: center; */
+}
+.navChilds:hover{
+  background-color: rosybrown;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+
+
+
+@media screen and (min-width: 340px) and (max-width : 800px) {
+  .fontIcon{
+    display: block;
+  }
+  .ulInNav{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    justify-content: space-evenly;
+    gap: 25px;
+  }
+}
+.fontIcon{
+  display: none;
+}
+.show{
+  background-color: yellow;
+}
+
+
+

@@ -1,0 +1,62 @@
+.resumeSection{
+    height: 35rem;
+    width: 99%;
+    /* border: 2px solid red; */
+    color: green;
+}
+.resumeSection h1 {
+    text-align: center;
+}
+.resumeSection .underline {
+    height: 5px;
+    background-color: #fca738;
+    width: 11%;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.resumeInfoAndPhoto{
+    height: 25rem;
+    width: 90%;
+    /* border: 2px solid brown; */
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info{
+    height: 400px;
+    width: 700px;
+    /* border: 2px solid yellow; */
+}
+.traning1{
+    /* border:2px solid violet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.traning1 span {
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: tomato;
+}
+.trainingInstitue{
+    /* border: 2px solid black; */
+    width: 600px;
+    /* text-align: center; */
+    margin-top: -10px;
+    display: block;
+    font-weight: bold;
+}
+.resumePhoto img{
+    height: 380px;
+    width: 500px;
+    /* border: 2px solid darkcyan; */
+}
+
+/* @media screen and (min-width: 340px) {
+    
+} */

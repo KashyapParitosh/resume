@@ -1,0 +1,79 @@
+.portfolio-container {
+    
+    width: 98%;
+    margin: 10px auto 10px auto;
+    padding-top: 6rem;
+    /* border: 2px solid green; */
+  }
+.portfolioHeading{
+    text-align: center
+}  
+  .portfolio-container .underline {
+    height: 5px;
+    background-color: #fca738;
+    width: 18%;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .portfolio-img-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .portfolio-img-container .items {
+    height: 250px;
+    margin: 10px 0;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  
+  .portfolio-img-container .item1 {
+    width: 370px;
+    background-image: url("../images/clockImgPortfolio.PNG");
+  }
+  
+  .portfolio-img-container .item2 {
+    width: 370px;
+    background-image: url("../images/todoJSportfolio.PNG");
+  }
+  
+  .portfolio-img-container .item3 {
+    width: 370px;
+    background-image: url("../images/saharaOnCssPortfolio.PNG");
+  }
+  
+  .portfolio-img-container .item4 {
+    width: 370px;
+    background-image: url("../images/carPortfolio.PNG");
+  }
+  
+  .portfolio-img-container .item5 {
+    width: 370px;
+    background-image: url("../images/reactappPortfolio.PNG");
+  }
+  
+  /* .portfolio-img-container .item6 {
+    width: 400px;
+    background-image: url("../images/portfolio-img-5.png");
+  } */
+  
+  @media screen and (max-width: 600px) {
+    .portfolio-container {
+      width: 100%;
+    }
+  
+    .portfolio-container .underline {
+      width: 58%;
+    }
+  
+    .portfolio-img-container .items {
+      width: 300px;
+      pointer-events: none;
+      margin: 10px;
+    }
+  }
+  

@@ -1,0 +1,199 @@
+.resume-section {
+    
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    padding: 6rem 2rem 2rem 2rem;
+    color: #105652;
+}
+
+.resume-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%
+}
+
+.resume-img {
+
+    max-width: 550px;
+}
+
+
+.resume-section h1 {
+    text-align: center;
+    color: #105652;
+}
+
+
+.resume-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.college-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.passing-year {
+    padding: 0.5rem 1rem;
+    background: #FCA738 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 7px #F57F173D;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-align: right;
+
+}
+
+.img400 {
+    width: 400px;
+}
+
+.flex-edu {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-education {
+    display: flex;
+    gap: 1rem;
+
+}
+
+
+.margin2top {
+    margin-top: 2rem;
+}
+
+.resume-section-flex {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+
+}
+
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 550px;
+    WIDTH: 50%;
+}
+
+.social {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.social-icons {
+    font-size: 4rem;
+    color: #333333;
+}
+
+
+@media screen and (max-width: 900px) {
+    .resume-section-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+    .flex-edu {
+
+        gap: 1rem;
+
+    }
+
+    .college-name {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    .resume-section {
+
+        padding: 0.5rem;
+
+    }
+
+
+    .resume-image {
+
+        width: 90%
+    }
+
+    .resume-img {
+
+        max-width: 320px;
+    }
+
+    .social {
+
+
+        gap: 1rem;
+
+    }
+
+    .social-icons {
+        font-size: 2rem;
+        color: #333333;
+    }
+
+    .vertical-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        WIDTH: 95%;
+    }
+
+}
+
+.work-flex::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -0.6rem;
+    width: 1rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #09BCAB;
+}
+
+.work-flex2 {
+    position: relative;
+    margin-left: -0.2rem;
+    padding-left: 1rem;
+    border-left: 0.2rem solid #09BCAB;
+}
+
+.work-flex {
+    position: relative;
+    margin-left: -0.2rem;
+    padding-left: 1rem;
+    border-left: 0.2rem solid #09BCAB;
+}
+
+.work-flex2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -0.6rem;
+    width: 1rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #09BCAB;
+}

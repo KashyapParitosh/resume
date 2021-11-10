@@ -1,0 +1,101 @@
+.aboutSection {
+  padding-top: 6rem;
+    display: flex;
+    width: 80%;
+    margin:  100px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 60px #10565221;
+  }
+  
+  .aboutMePhoto{
+    flex-basis: 50%;
+  }
+  
+  .aboutMePhoto img {
+    width: 500px;
+    margin: 50px;
+  }
+  
+  .aboutText{
+    color: #105652;
+    margin: 10px 20px;
+    padding: 20px;
+    text-align: left;
+    flex-basis: 50%;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+  }
+  
+  .aboutText h1 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .textInAbout{
+    height: 5px;
+    background-color: #fca738;
+    width: 31%;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    /* border: 2px solid blue; */
+  }
+  
+  .logoOfTech{
+    padding: 1px 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #00000029;
+    margin: 50px 0 25px 0;
+  }
+  
+  .logoOfTech h5 {
+    font-weight: 600;
+  }
+  
+  .logoOfTech h5::after {
+    height: 2px;
+    background-color: #105652;
+    width: 50px;
+    z-index: 5;
+  }
+  
+  .tech-logos-flex {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .logoOfTech img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .aboutSection{
+      flex-direction: column-reverse;
+      width: 100%;
+      border-radius: 0px;
+    }
+  
+    .aboutText h1 {
+      text-align: center;
+    }
+  
+    .textInAbout {
+      width: 60%;
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .aboutMePhoto img {
+      width: 280px;
+      margin: 25px;
+    }
+  
+    .logoOfTech img {
+      height: 38px;
+      width: 38px;
+    }
+  }
+  
