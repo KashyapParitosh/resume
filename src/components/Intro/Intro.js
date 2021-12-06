@@ -2,7 +2,8 @@ import React from 'react';
 import "./Intro.css"
 import "./../../App.css"
 import leftSide from "../images/WhatsApp_Image_2021-11-08_at_12.01.06_PM-removebg-preview.png";
-import Resume from '../images/resume.pdf'
+import Resume from '../images/ParitoshWebResume.pdf'
+
 export default function Intro() {
     return (
         <>
