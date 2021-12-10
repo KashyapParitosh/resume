@@ -50,7 +50,7 @@ export default function ResumeParitosh() {
                         <div className="social">
 
                             <a className="link" target="_blank" rel="noreferrer"
-                                href="https://github.com/paritosh251197"><i className="fab social-icons fa-github "></i></a>
+                                href="https://github.com/KashyapParitosh"><i className="fab social-icons fa-github "></i></a>
 
                             <a className="link" target="_blank" rel="noreferrer" href="https://www.instagram.com/paritosh25_/"><i
                                 className="fab social-icons fa-instagram "></i></a>
