@@ -17,7 +17,7 @@ class Contact extends Component{
         }
         return(
             <div className="contact-main-container" id="Contact">
-                <h2>Contact Me</h2>
+                <h2 className="heading-in-contactPage">Contact Me</h2>
                 <div className="underline"/>
                 <div className="contact-flex-container">
                     <div className="info-contact-container">

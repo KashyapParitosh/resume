@@ -141,10 +141,9 @@
     }
 
     .social {
-
-
-        gap: 1rem;
-
+        margin-right: 25px;
+        grid-gap: 1rem;
+        gap: 2rem;
     }
 
     .social-icons {

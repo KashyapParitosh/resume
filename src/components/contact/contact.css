@@ -70,6 +70,10 @@
     .contact-main-container {
       width: 100%;
     }
+
+    .heading-in-contactPage{
+      text-align: center;
+    }
   
     .contact-flex-container {
       flex-direction: column;
