@@ -59,6 +59,11 @@
     width: 370px;
     background-image: url("../images/reactappPortfolio.PNG");
   }
+
+  .portfolio-img-container .item6 {
+    width: 370px;
+    background-image: url("../images/ReactAppImgageCapture.PNG");
+  }
   
   /* .portfolio-img-container .item6 {
     width: 400px;
