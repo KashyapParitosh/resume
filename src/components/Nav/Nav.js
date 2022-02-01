@@ -12,8 +12,16 @@ class Nav extends Component {
         isCheck: false,
         isScroll: false
     }
+    
 
     render() {
+        const clickHandler = ()=> {
+                if (this.state.isactive) {
+                    this.setState({ isactive: false })
+                } else {
+                    this.setState({ isactive: true })
+                }
+        }
         return (
             <>
 
@@ -24,22 +32,16 @@ class Nav extends Component {
                         <ul className={"menu-list " + (this.state.isactive ? " show" : "")}>
 
 
-                            <li>  <a href="#">Home</a></li>
-                            <li><a href="#About">About</a></li>
-                            <li><a href="#Portfolio" >Portfolio</a></li>
-                            <li><a href="#Resume">Resume</a></li>
-                            <li><a href="#Contact" >Contact</a></li>
+                            <li onClick={clickHandler}><a href="#">Home</a></li>
+                            <li onClick={clickHandler}><a href="#About">About</a></li>
+                            <li onClick={clickHandler}><a href="#Portfolio" >Portfolio</a></li>
+                            <li onClick={clickHandler}><a href="#Resume">Resume</a></li>
+                            <li onClick={clickHandler}><a href="#Contact" >Contact</a></li>
 
                         </ul>
 
 
-                        <label id="icon" onClick={() => {
-                            if (this.state.isactive) {
-                                this.setState({ isactive: false })
-                            } else {
-                                this.setState({ isactive: true })
-                            }
-                        }}> <i className="fas fa-bars" ></i> </label>
+                        <label id="icon" onClick={clickHandler}> <i className="fas fa-bars" ></i> </label>
                     </nav>
                 </div>
 
