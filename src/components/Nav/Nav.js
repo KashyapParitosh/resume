@@ -32,11 +32,11 @@ class Nav extends Component {
                         <ul className={"menu-list " + (this.state.isactive ? " show" : "")}>
 
 
-                            <li onClick={clickHandler}><a href="#">Home</a></li>
-                            <li onClick={clickHandler}><a href="#About">About</a></li>
-                            <li onClick={clickHandler}><a href="#Portfolio" >Portfolio</a></li>
-                            <li onClick={clickHandler}><a href="#Resume">Resume</a></li>
-                            <li onClick={clickHandler}><a href="#Contact" >Contact</a></li>
+                            <li onClick={this.state.isactive ? clickHandler : null}><a href="#">Home</a></li>
+                            <li onClick={this.state.isactive ? clickHandler : null}><a href="#About">About</a></li>
+                            <li onClick={this.state.isactive ? clickHandler : null}><a href="#Portfolio" >Portfolio</a></li>
+                            <li onClick={this.state.isactive ? clickHandler : null}><a href="#Resume">Resume</a></li>
+                            <li onClick={this.state.isactive ? clickHandler : null}><a href="#Contact" >Contact</a></li>
 
                         </ul>
 
